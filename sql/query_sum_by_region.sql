@@ -1,5 +1,5 @@
 select region,
 	sum(population)
-from "population"."population"
-where region='Sul'
+from "populationdb"."population"
+where region='Nordeste'
 group by region;
